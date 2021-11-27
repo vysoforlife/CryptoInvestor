@@ -1,0 +1,28 @@
+{
+  "name": "untitled",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tstr.js",
+  "type": "module",
+  "scripts": {
+    "test": "node tstr.js",
+    "change": "node changer.js",
+    "luna": "node luna.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@binance/connector": "^1.5.0",
+    "coingecko-api": "^1.0.10",
+    "coinspot-api": "^0.1.20",
+    "eventsource": "^1.1.0",
+    "node-fetch": "^3.1.0",
+    "nomics": "github:mikunimaru/nomics",
+    "ws": "^8.2.3"
+  },
+  "devDependencies": {
+    "request-promise": "^4.2.6",
+    "socket.io-client": "^4.3.2"
+  }
+}
