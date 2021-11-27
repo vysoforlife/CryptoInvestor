@@ -10,8 +10,7 @@ const kp = {
     headers: {
         'Content-Type': 'application/json'
     },
-    keepalive : true,
-    symbol : 'LUNABTC'
+    keepalive : true
 };
 
 
